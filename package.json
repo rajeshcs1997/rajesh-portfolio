@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
+    "@netlify/plugin-nextjs": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
     "sass": "^1.100.0",
