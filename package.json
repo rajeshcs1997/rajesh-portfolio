@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "netlify-build": "corepack enable && corepack prepare pnpm@7 --activate && pnpm install && pnpm build",
     "start": "next start"
   },
   "dependencies": {
