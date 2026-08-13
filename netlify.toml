@@ -2,5 +2,9 @@
   command = "pnpm run netlify-build"
   publish = ".netlify/output"
 
+[build.environment]
+  NETLIFY_BUILD_DEBUG = "true"
+  NODE_VERSION = "22"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
