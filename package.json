@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "netlify-build": "corepack enable && corepack prepare pnpm@7 --activate && pnpm install && pnpm build",
+    "netlify-build": "corepack enable && corepack prepare pnpm@7 --activate && pnpm install && pnpm build && echo '--- debug: list .netlify ---' && ls -la .netlify || true && echo '--- debug: list .netlify/output ---' && ls -la .netlify/output || true && echo '--- debug: pwd & root list ---' && pwd && ls -la",
     "export": "next export",
     "netlify-export": "corepack enable && corepack prepare pnpm@7 --activate && pnpm install && pnpm build && pnpm run export && echo '--- debug: list out ---' && ls -la out || true && pwd && ls -la",
     "start": "next start"
