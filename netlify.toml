@@ -1,10 +1,6 @@
 [build]
-  command = "pnpm run netlify-build"
-  publish = ".netlify/output"
-
-[build.environment]
-  NETLIFY_BUILD_DEBUG = "true"
-  NODE_VERSION = "22"
+  command = "pnpm run netlify-export"
+  publish = "out"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
