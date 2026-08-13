@@ -2,5 +2,3 @@
   command = "pnpm run netlify-export"
   publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"

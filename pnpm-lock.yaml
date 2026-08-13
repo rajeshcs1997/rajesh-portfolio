@@ -1,48 +1,47 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@emailjs/browser': ^4.4.1
-  '@netlify/plugin-nextjs': ^5.15.13
-  '@next/third-parties': ^16.2.7
-  '@tailwindcss/postcss': ^4.3.0
-  autoprefixer: latest
-  axios: ^1.17.0
-  lottie-react: ^2.4.1
-  next: 16.2.7
-  nodemailer: ^8.0.10
-  postcss: latest
-  react: ^19.2.7
-  react-dom: ^19.2.7
-  react-fast-marquee: ^1.6.5
-  react-google-recaptcha: ^3.1.0
-  react-icons: ^5.6.0
-  react-toastify: ^11.1.0
-  sass: ^1.100.0
-  sharp: ^0.34.5
-  tailwindcss: latest
+importers:
 
-dependencies:
-  '@emailjs/browser': 4.4.1
-  '@netlify/plugin-nextjs': 5.15.13
-  '@next/third-parties': 16.3.0_next@16.2.7+react@19.2.8
-  axios: 1.19.0
-  lottie-react: 2.4.1_46xqiwy5bvilv63qu3buxg2uwm
-  next: 16.2.7_5da4xk7mjceirawlivvehc7y6q
-  nodemailer: 8.0.11
-  react: 19.2.8
-  react-dom: 19.2.8_react@19.2.8
-  react-fast-marquee: 1.6.5_46xqiwy5bvilv63qu3buxg2uwm
-  react-google-recaptcha: 3.1.0_react@19.2.8
-  react-icons: 5.7.0_react@19.2.8
-  react-toastify: 11.1.0_46xqiwy5bvilv63qu3buxg2uwm
-  sharp: 0.34.5
-
-devDependencies:
-  '@tailwindcss/postcss': 4.3.3
-  autoprefixer: 10.5.4_postcss@8.5.26
-  postcss: 8.5.26
-  sass: 1.102.0
-  tailwindcss: 4.3.3
+  .:
+    specifiers:
+      '@emailjs/browser': ^4.4.1
+      '@next/third-parties': ^16.2.7
+      '@tailwindcss/postcss': ^4.3.0
+      autoprefixer: latest
+      axios: ^1.17.0
+      lottie-react: ^2.4.1
+      next: 16.2.7
+      nodemailer: ^8.0.10
+      postcss: latest
+      react: ^19.2.7
+      react-dom: ^19.2.7
+      react-fast-marquee: ^1.6.5
+      react-google-recaptcha: ^3.1.0
+      react-icons: ^5.6.0
+      react-toastify: ^11.1.0
+      sass: ^1.100.0
+      sharp: ^0.34.5
+      tailwindcss: latest
+    dependencies:
+      '@emailjs/browser': 4.4.1
+      '@next/third-parties': 16.3.0_next@16.2.7+react@19.2.8
+      axios: 1.19.0
+      lottie-react: 2.4.1_46xqiwy5bvilv63qu3buxg2uwm
+      next: 16.2.7_5da4xk7mjceirawlivvehc7y6q
+      nodemailer: 8.0.11
+      react: 19.2.8
+      react-dom: 19.2.8_react@19.2.8
+      react-fast-marquee: 1.6.5_46xqiwy5bvilv63qu3buxg2uwm
+      react-google-recaptcha: 3.1.0_react@19.2.8
+      react-icons: 5.7.0_react@19.2.8
+      react-toastify: 11.1.0_46xqiwy5bvilv63qu3buxg2uwm
+      sharp: 0.34.5
+    devDependencies:
+      '@tailwindcss/postcss': 4.3.3
+      autoprefixer: 10.5.4_postcss@8.5.26
+      postcss: 8.5.26
+      sass: 1.102.0
+      tailwindcss: 4.3.3
 
 packages:
 
@@ -325,11 +324,6 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
     dev: true
-
-  /@netlify/plugin-nextjs/5.15.13:
-    resolution: {integrity: sha512-gBmWtgG13ZW4ytNMCvacfwZemtdtV/Ekc+6RBYvI5fndjmDvKxgFHylsw7oli+PHMGAtNqaJrN8QccGnDReu6A==}
-    engines: {node: '>=18.0.0'}
-    dev: false
 
   /@next/env/16.2.7:
     resolution: {integrity: sha512-tMJizPlj6ZYpBMMdK8S0LJufrP4QTdR6pcv9KQ/bVETPAmg0j1mlHE9G2c38UyGHxoBapgwuj7XjbGJ2RcDFOg==}

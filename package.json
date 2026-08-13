@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@netlify/plugin-nextjs": "^5.15.13",
     "@next/third-parties": "^16.2.7",
     "axios": "^1.17.0",
     "lottie-react": "^2.4.1",
