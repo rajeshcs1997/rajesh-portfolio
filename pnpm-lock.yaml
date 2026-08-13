@@ -5,6 +5,7 @@ importers:
   .:
     specifiers:
       '@emailjs/browser': ^4.4.1
+      '@netlify/plugin-nextjs': latest
       '@next/third-parties': ^16.2.7
       '@tailwindcss/postcss': ^4.3.0
       autoprefixer: latest
@@ -24,6 +25,7 @@ importers:
       tailwindcss: latest
     dependencies:
       '@emailjs/browser': 4.4.1
+      '@netlify/plugin-nextjs': 5.15.13
       '@next/third-parties': 16.3.0_next@16.2.7+react@19.2.8
       axios: 1.19.0
       lottie-react: 2.4.1_46xqiwy5bvilv63qu3buxg2uwm
@@ -324,6 +326,11 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
     dev: true
+
+  /@netlify/plugin-nextjs/5.15.13:
+    resolution: {integrity: sha512-gBmWtgG13ZW4ytNMCvacfwZemtdtV/Ekc+6RBYvI5fndjmDvKxgFHylsw7oli+PHMGAtNqaJrN8QccGnDReu6A==}
+    engines: {node: '>=18.0.0'}
+    dev: false
 
   /@next/env/16.2.7:
     resolution: {integrity: sha512-tMJizPlj6ZYpBMMdK8S0LJufrP4QTdR6pcv9KQ/bVETPAmg0j1mlHE9G2c38UyGHxoBapgwuj7XjbGJ2RcDFOg==}
